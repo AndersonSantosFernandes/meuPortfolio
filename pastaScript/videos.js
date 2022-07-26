@@ -1,50 +1,54 @@
 function mudarVideos(){
     var videoDiv = window.document.getElementById('iframe')
     var selecao = window.document.getElementById('escolhe')
-    
+    var select = Number.parseInt(selecao.value)
 
-    if(selecao.value == 0)
+    switch(select)
     {
-        videoDiv.innerHTML=`
-        <br><br>
-        <h2 id="h2cor">
-            Selecione um video na lista e clique em tocar 
-        </h2>
-        
-        `
-    }
-    else if(selecao.value == 1)
-    {
-        videoDiv.innerHTML=`
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/xcaqcEkTKK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    `
-    }
-    else if(selecao.value == 2)
-    {
-        videoDiv.innerHTML = 
-        `
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/dRCGAxCyM2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        `
-    }
-    else if(selecao.value == 3)
-    {
-        videoDiv.innerHTML = 
-        `
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/D0GcEmzcniw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        `
-
-    }
-    else if(selecao.value == 4)
-    {
-
-    }
-    else if(selecao.value == 5)
-    {
-
-    }
-    else if(selecao.value == 6)
-    {
-
+        case 0:
+            videoDiv.innerHTML=`
+            <br><br>
+            <h2 id="h2cor">
+                Selecione um video na lista... 
+            </h2>
+            
+            `
+        break    
+        case 1:
+            videoDiv.innerHTML=`
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xcaqcEkTKK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            `    
+        break
+        case 2:
+            videoDiv.innerHTML = 
+            `
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dRCGAxCyM2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            ` 
+        break
+        case 3:
+            videoDiv.innerHTML = 
+            `
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/D0GcEmzcniw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            `
+        break
+        case 4:
+            videoDiv.innerHTML = 
+            `
+            <h1>Opção 4 vazia</h1>
+            `
+        break
+        case 5:
+            videoDiv.innerHTML = 
+            `
+            <h1>Opção 5 vazia</h1>
+            `
+        break
+        default:
+            videoDiv.innerHTML = 
+            `
+            <h1>Opção inválida</h1>
+            `
+        break    
     }
 
         

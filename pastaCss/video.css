@@ -41,3 +41,8 @@ input#btVideo:hover{
 h2#h2cor{
     color: purple;
 }
+img#ilusao{
+    width: 550px;
+    height: 300px;
+    margin: auto;
+}

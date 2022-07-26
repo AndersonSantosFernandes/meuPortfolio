@@ -116,7 +116,7 @@ div#texto{
     position: relative;
     overflow: hidden;
     transition: all 1s;
-    animation: bbb 10s ease-in-out infinite;
+    animation: aaa 10s ease-in-out infinite;
     
 }
 
@@ -170,7 +170,7 @@ div#texto:hover{
     transform: scale(1.2);
     border: 3px solid purple;
     animation: none;
-    
+       
 }
 div#texto:hover #textoIn{
     top: -100px;

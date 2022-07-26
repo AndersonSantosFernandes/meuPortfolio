@@ -22,22 +22,22 @@
                 <h2>Meus vídeos</h2>
             </div>
             <div id="select">
-                <select name="escolhe" id="escolhe">
+                <select name="escolhe" id="escolhe" onchange="mudarVideos()">
                 <option value="0">  Selecione  </option>
-                <option value="1">opc1</option>
+                <option value="1">Origem da formula de Bhaskara</option>
                 <option value="2">Apresentação trabalho dev web</option>
                 <option value="3">Apresentação trabalho MVP</option>
                 <option value="4">opção 4</option>
                 <option value="5">opção 5</option>
                 </select>
-                <input type="button" value="Tocar" id="btVideo" onclick="mudarVideos()">
+                
             </div>
             <div id="video">
                <!-- <div id="videoIn">
                     <h1>Título</h1>
                 </div> --> 
                 <div id="iframe">
-                  
+                  <img id="ilusao" src="imagens/gifexagono.gif" alt="">
                 </div>
             </div>
         </div>

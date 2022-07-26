@@ -1,0 +1,67 @@
+div#mainCalculos{
+    width: 800px;
+    margin: auto;
+    box-shadow: 5px 5px 5px purple;
+    display: block;
+    margin-top: 50px;
+    background-color: rgba(240, 248, 255, 0.7);
+    padding: 10px;
+}
+div.calculosMain{
+    width: 90%;
+    height: 400px;
+    margin: 15px auto;
+    /* box-shadow: 5px 5px 5px purple; */
+    padding: 15px;
+    display: flex;
+
+}
+article#direito , article#esquerdo{
+    box-shadow: 5px 5px 5px purple;
+    width: 45%;
+    height: 90%;
+    padding: 10px;
+    margin: auto;
+}
+input{
+    display: block;
+    margin: 8px auto;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    /* border: none; */
+    /* background-color: rgba(128, 0, 128, 0.431); */
+}
+div#resultadoBhaskara{
+    text-align: center;
+}
+div.resultados{
+    padding: 20px;
+    background-color: rgba(128, 0, 128, 0.551);
+    border-radius: 20px;
+    text-align: center; 
+}
+article#esquerdo h1{
+    text-shadow: 1px 1px 4px purple;
+    text-align: center;
+}
+article#esquerdo{
+    text-align: center;
+}
+img#ddd, img#ddd1{
+    width: 50px;
+    height: 50px;
+}
+div#respostaDireita{
+    text-align: center;
+}
+p#origem{
+    text-indent: 20px;
+    position: absolute;
+    bottom: 0px;   
+}
+article#direito{
+    position: relative;
+}

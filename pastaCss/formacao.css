@@ -1,0 +1,28 @@
+div#formacaoMain{
+    width: 90%;
+    height: 80%;
+    /* border: 1px solid purple; */
+    margin: auto;
+    padding: 10px;
+    display: flex;
+}
+article#direito , article#esquerdo{
+    box-shadow: 5px 5px 5px purple;
+    width: 45%;
+    height: 90%;
+    padding: 10px;
+    margin: auto;
+}
+img{
+    width: 150px;
+    height: 150px;
+    margin: 10px 50%;
+    box-shadow: 5px 5px 15px purple;
+}
+p{
+    text-indent: 20px;
+}
+h1#tit{
+    text-align: center;
+    text-shadow: 1px 1px 5px purple;
+}

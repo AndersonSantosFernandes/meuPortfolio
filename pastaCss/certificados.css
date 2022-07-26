@@ -1,0 +1,35 @@
+div#mainCertificados{
+    width: 800px;
+    height: 550px;
+    margin: auto;
+    box-shadow: 5px 5px 5px purple;
+    display: block;
+    margin-top: 50px;
+    background-color: rgba(240, 248, 255, 0.7);
+}
+
+div#certificadoInterno{
+    width: 90%;
+    height: 80%;
+    padding: 15px;
+    margin: 5px auto;       
+}
+
+li.certificadosImg{
+    width: 200px;
+    height: 170px;
+    box-shadow: 5px 5px 5px purple;
+    list-style: none;
+    float: left;
+    margin: 17px;
+    transition: all 1s;
+}
+
+li.certificadosImg:hover{
+    transform: scale(1.2);
+}
+
+img.imgCertificados{
+    width: 95%;
+    height: 95%;
+}

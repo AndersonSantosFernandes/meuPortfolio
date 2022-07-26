@@ -1,0 +1,43 @@
+div#video{
+    width: 560px;
+    height: 310px;
+    /* border: 1px solid black; */
+    box-shadow: -5px 5px 5px purple;
+    margin: auto;
+    padding: 15px;
+    background-color: rgb(250, 250, 187);
+}
+div#videoIn{
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 5px purple;
+    margin:10px auto;
+}
+div#select{
+    width: 530px;
+    padding: 15px;
+    margin: auto;
+    /* border: solid 1px purple; */
+    text-align: center;
+}
+select#escolhe{
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+}
+input#btVideo{
+    width: 200px;
+    height: 30px;
+    background-color: purple;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 30px;
+}
+input#btVideo:hover{
+    background-color: aliceblue;
+    color: purple;
+}
+h2#h2cor{
+    color: purple;
+}

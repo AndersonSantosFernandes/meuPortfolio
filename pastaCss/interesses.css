@@ -1,0 +1,36 @@
+div#interessesMain{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+}
+article#direito , article#esquerdo{
+    box-shadow: 2px 2px 5px purple;
+    width: 45%;
+    height: 90%;
+    padding: 8px;
+    margin: auto;
+}
+div.interesses{
+    width: 90%;
+    height: 19%;
+    margin: 3px auto;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px purple;
+    transition: all 1.5s;
+}
+div.interesses:hover{
+    transform: scale(1.3);
+    height: 40%;
+    background-color: white;
+}
+
+img.imgInteresses{
+    width: 74px;
+    height: 74px;
+}
+p{
+    text-indent: 20px;
+}

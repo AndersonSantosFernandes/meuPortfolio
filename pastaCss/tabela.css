@@ -1,0 +1,101 @@
+div#mainTabela{
+    width: 800px;
+    margin: auto;
+    box-shadow: 5px 5px 5px purple;
+    display: block;
+    margin-top: 50px;
+    background-color: white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+table.principal{
+border: 1px solid purple;
+border-collapse: collapse;
+margin: auto;
+}
+table.principal td{
+    border: 1px solid purple; 
+}
+td.menor{
+    width: 120px;
+}
+
+td.maior{
+    width: 270px;
+}
+td.uf{
+    width: 80px;
+}
+div#getnet{
+    width: 98%;
+    height: 150px;
+    margin: 10px auto;
+    text-align: center;
+    border: 1px solid purple;
+}
+div#getnet2{
+    width: 98%;
+    height: 150px;
+    margin: 10px auto;
+    text-align: center;
+    border: 1px solid purple;
+}
+table.preco{
+    width: 98%;
+    
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+table.preco td.no{
+    /* visibility: hidden; */
+    border: none;
+}
+table.preco td {
+    border: 1px solid purple;
+}
+table.descricao{
+    width: 98%;
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+table.descricao td.trmin{
+    width: 20% ;
+    border: 1px solid purple;
+    
+}
+td.trmax{
+    border: 1px solid purple;
+}
+div#assinaturas{
+    width: 95.5%;
+    height: 80px;
+    border: 1px solid purple;
+    margin: auto;
+    padding: 10px;
+}
+div#cabeca{
+    width: 98%;
+    height: 80px;
+   
+    margin: 10px auto;
+    display: flex;
+}
+div#imgLogo{
+   
+    width: 40%;
+    height: 75px;
+    margin: auto;
+    background-image: url("../imagens/paytec.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+div#tituloTabela{
+   
+    width: 55%;
+    height: 75px;
+    margin: auto;
+    text-align: center;
+    padding-top: 5PX;
+}

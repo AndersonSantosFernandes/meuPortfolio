@@ -1,0 +1,172 @@
+
+
+div.fotos{
+    width: 200px;
+    height: 230px;
+    border: 1px solid purple;
+    display:inline-block;
+    margin:3%;
+}
+div.fotos_in{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid purple;
+}
+div#mainFotos{
+    width: 800px;
+    margin: 50px auto;
+    box-shadow: 5px 5px 5px purple;
+    display: block;
+    
+    background-color: rgba(240, 248, 255, 0.7);
+}
+div.img{
+    background-color: aquamarine;
+    width: 100%;
+    height: 200px;
+}
+
+div.pessoas{
+    width: 200px;
+    height: 230px;
+    border: 1px solid purple;
+    display:inline-block;
+    margin:3%;
+}
+div.pessoas_in{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid purple;
+}
+div.pess{
+    background-color: aquamarine;
+    width: 100%;
+    height: 200px;
+    
+}
+
+ul.foto{
+    background-color: aliceblue;
+    width: 700px; /*define uma largura para ul qu vai comportar os li*/
+    margin: 0 auto;/*centraliza o conteúdo no meio da tela horizontalmente*/
+    padding: 50px;
+    overflow: hidden; /*Faz todos os li ficarem dentr do ul*/
+    list-style: none;
+    margin-bottom: 10px; 
+    
+}
+ul.foto li{
+    width: 200px;
+    height: 200px;
+   box-shadow: 5px 5px 5px purple;
+    float: left;
+    margin: 10px;
+    transition:  all 0.5s ease-in;
+}
+/*##################################################### ESTOQUE ###############################*/
+
+/*Imagem 1 estoque*/
+ ul.foto li#fotoEstoque1{
+   background: url('../imagens/estoque1.PNG ') no-repeat;
+   background-position: 50% 50%;
+   background-size: 400px 400px;   
+}
+ul.foto li#fotoEstoque1:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+/*Imagem 2 estoque*/
+ul.foto li#fotoEstoque2{
+    background: url('../imagens/estoque2.PNG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;   
+ }
+ ul.foto li#fotoEstoque2:hover{
+     background-position: 0px 0px;
+     background-size: 200px 200px;
+ }
+ /*Imagem 3 estoque*/
+ ul.foto li#fotoEstoque3{
+    background: url('../imagens/estoque3.PNG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;   
+ }
+ ul.foto li#fotoEstoque3:hover{
+     background-position: 0px 0px;
+     background-size: 200px 200px;
+ }
+ /*Imagem 4 estoque*/
+ ul.foto li#fotoEstoque4{
+    background: url('../imagens/cadastroProd.PNG') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;   
+ }
+ ul.foto li#fotoEstoque4:hover{
+     background-position: 0px 0px;
+     background-size: 200px 200px;
+ }
+ /*Imagem 5 estoque*/
+ ul.foto li#fotoEstoque5{
+    background: url('../imagens/lua.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;   
+ }
+ ul.foto li#fotoEstoque5:hover{
+     background-position: 0px 0px;
+     background-size: 200px 200px;
+ }
+ /*Imagem 6 estoque*/
+ ul.foto li#fotoEstoque6{
+    background: url('../imagens/lua.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;   
+ }
+ ul.foto li#fotoEstoque6:hover{
+     background-position: 0px 0px;
+     background-size: 200px 200px;
+ }
+ /*Imagem 7 estoque*/
+ ul.foto li#fotoEstoque7{
+    background: url('../imagens/lua.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;   
+ }
+ ul.foto li#fotoEstoque7:hover{
+     background-position: 0px 0px;
+     background-size: 200px 200px;
+ }
+ /*Imagem 8 estoque*/
+ ul.foto li#fotoEstoque8{
+    background: url('../imagens/lua.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;   
+ }
+ ul.foto li#fotoEstoque8:hover{
+     background-position: 0px 0px;
+     background-size: 200px 200px;
+ }
+ /*Imagem 9 estoque*/
+ ul.foto li#fotoEstoque9{
+    background: url('../imagens/natureza.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;   
+ }
+ ul.foto li#fotoEstoque9:hover{
+     background-position: 0px 0px;
+     background-size: 200px 200px;
+ }
+
+
+ ul.foto li:hover{
+    transform: scale(1.1);
+}
+ul.foto li:hover p.paragrafoImg{
+    background-color: azure;
+    opacity: 1;
+    
+}
+p.paragrafoImg{
+    text-align: center;
+    opacity: 0;
+    transition: all 1s;
+}

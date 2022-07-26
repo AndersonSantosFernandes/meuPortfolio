@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="pastaCss/principal.css">
+        <link rel="stylesheet" href="pastaCss/calculos.css">
+        <title>Interesses</title>
+        <script src="pastaScript/principal.js"></script>
+        <script src="pastaScript/bhaskara.js"></script>
+        <script src="pastaScript/jokenpo.js"></script>
+    </head>    
+    <body onload="mostraMenu()">
+        <div id="container">
+            <div id="menu0">
+            <!--Aqui é renderizado o menú-->                 
+            </div>
+            <div id="mainCalculos">
+                <div id="tituloPagina">
+                    <h2>Cálculos</h2>
+                </div>
+                <div class="calculosMain">
+                    <article id="esquerdo">
+                        <h1>Formula de Bhaskara</h1>
+                        <input type="number" name="" id="valora" placeholder="Valor de A">
+                        <input type="number" name="" id="valorb" placeholder="Valor de B">
+                        <input type="number" name="" id="valorc" placeholder="Valor de C">
+                        <input type="button" value="Calcular" onclick="calcularBhaskara()">                
+                        <p>
+                            Em matemática, uma equação quadrática ou equação do segundo grau é uma equação polinomial de grau dois. A forma geral deste tipo de equação é: y:= f(x) = ax^{2}+bx+c=0, em que x é uma variável, sendo a, b e c constantes, com a ≠ 0.
+                        </p>                    
+                    </article>
+                    <article id="direito">
+                        <div class="resultados" id="resultadoBhaskara">
+                            <h1>
+                                Aqui aparecerá o resultado da equação
+                            </h1>
+                        </div>                   
+                    </article>                
+                </div>
+                <div class="calculosMain">
+                    <article id="esquerdo">
+                        <h1>Sequencia de Fibonacci</h1>
+                        <br>
+                        <input type="number" name="" id="fibonacci" placeholder="Insira valor positivo">
+                        <input type="button" value="Calcular" onclick="calcularFibonacci()"> 
+                        <br>
+                        <p>
+                            Na matemática, a sucessão de Fibonacci, é uma sequência de números inteiros, começando normalmente por 0 e 1, na qual cada termo subsequente corresponde à soma dos dois anteriores.
+                        </p>
+                    </article>
+                    <article id="direito">
+                        <div class="resultados" id="resultadoFibonacci">
+                            <h1>
+                                Aqui aparecerá o resultado da sequencia de Fibonacci.
+                            </h1>
+                        </div>                   
+                    </article>                
+                </div>
+                <div class="calculosMain">
+                    <article id="esquerdo">
+                        <h1>Fatorial</h1>
+                        <br>
+                        <input type="number" name="" id="fatorial" max="20" min="1" placeholder="Valor de 1 a 20">
+                        <input type="button" value="Calcular" onclick="calcularFatorial()"> 
+                        <br>
+                        <p>
+                            Na matemática, o fatorial de um número natural n, representado por n!, é o produto de todos os inteiros positivos menores ou iguais a n. A notação n! foi introduzida por Christian Kramp em 1808.
+                        </p>                    
+                    </article>
+                    <article id="direito">
+                        <div class="resultados" id="resultadoFatorial">
+                            <h1>
+                                Aqui aparecerá o resultado do Fatorial.
+                            </h1>
+                        </div>                   
+                    </article>                
+                </div>
+                <div class="calculosMain">
+                    <article id="esquerdo">   
+                        <h1>Conversor de temperatura</h1>                 
+                        <p>
+                            <label for="temperatura01">Converter Celcius em Farenheit</label>
+                        <input type="radio" name="temperatura" id="temperatura01" checked>
+                        </p>
+                        <p>
+                        <label for="temperatura02">Converter Farenheit em Celcius</label>
+                        <input type="radio" name="temperatura" id="temperatura02">
+                        </p>
+                        <label for="conversao">Digite a temperatura</label>
+                        <input type="number" name="grau" id="conversao" >
+                        <input type="button" value="Converter" onclick="converteTemperatura()">
+                    </article>
+                    <article id="direito">
+                        <div class="resultados" id="resultadoConversao">
+                            <h1>
+                                Aqui aparecerá o resultado da conversão.
+                            </h1> 
+                        </div>                      
+                    </article>                
+                </div>
+                <div class="calculosMain">
+                    <article id="esquerdo">                    
+                        <section id="main">
+                            <section>
+                                
+                                <div id="jogador">
+                                    <img id="ddd1" src="imagens/jkp.PNG" alt="imgs">
+                                </div>        
+                                <p>Pedra <input type="radio" name="jok" id="pedra">
+                                Papel <input type="radio" name="jok" id="papel">
+                                Tesoura <input type="radio" name="jok" id="tesoura">
+                            </p>
+                                <p>
+                                    <input id="botao" type="button" value="Jogar" onclick="jogar()">
+                                </p>
+                                
+                                <div id="imagem">
+                                    <img id="ddd" src="imagens/jkp.PNG" alt="imgs">
+                                </div>
+                                
+                            </section>
+                        </section> 
+                    </article>
+                    <article id="direito">
+                        <div id="respostaDireita">
+                                <div id="apjog"> </div>
+                                <br>
+                                <div id="msg">Quem marcar 10 pontos primeiro vence <br>Vamos ver... Eu ou você... hahaha!</div>
+                                <br>
+                                <div id="res">
+                                    Escolha pedra, papel ou tesoura
+                                </div>
+                                <br>                           
+                        </div> 
+                        <p id="origem">
+                            O JOKENPÔ ou pedra, papel, tesoura é um jogo antigo, cujas origens remontam à Dinastia Han chinesa, de 206 a.C. até 220 d.C. A primeira menção desse jogo é encontrada em 'Wuzazu', um livro escrito pelo escritor chinês da dinastia Ming Xie Zhaozhi.
+                        </p>        
+                    </article>                
+                </div>
+            </div>   
+        </div>
+        <div id="logo">        
+            <!--Aqui aparece o logotipo através do JS-->
+        </div>   
+    </body>
+</html>

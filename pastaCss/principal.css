@@ -116,7 +116,7 @@ div#texto{
     position: relative;
     overflow: hidden;
     transition: all 1s;
-    animation: aaa 10s ease-in-out infinite;
+    animation: aaa 5s ease-in-out infinite;
     
 }
 
@@ -155,13 +155,13 @@ div#texto{
 }
 @keyframes aaa{    
     0%{
-        transform: translateY(-100px);
+        transform: translateY(-15px);
     }
     50%{
-        transform: translateY(100px);
+        transform: translateY(15px);
     }
     100%{
-        transform: translateY(-100px);
+        transform: translateY(-15px);
     }
 }
 

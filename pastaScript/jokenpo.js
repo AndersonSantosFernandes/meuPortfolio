@@ -20,8 +20,7 @@ else if(ppt[2].checked){
     jogador = 3
 }
  // 1= pedra 2= papel 3= tesoura
-if (oponente == jogador){
-   
+if (oponente == jogador){   
         msg.innerHTML = 
     `Nós dois jogamos iguais  camarada!!!
     <audio id="music" autoplay>
@@ -156,9 +155,9 @@ if(pontosJog == limite || pontosOpon == limite){
         pontosOpon = 0
     }else if(pontosOpon == limite){
         var principal = window.document.getElementById('main')
-         principal.innerHTML = `<h1>Eu fiz ${pontosOpon} pontos e você fez ${pontosJog}<br>
-         Haa! Você até que tentou, mas ainda não está à minha altura<br>
-         Na próxima quem sabe eu deixo voçê ganhar</h1><br><br>
+        principal.innerHTML = `<h1>Eu fiz ${pontosOpon} pontos e você fez ${pontosJog}<br>
+        Haa! Você até que tentou, mas ainda não está à minha altura<br>
+        Na próxima quem sabe eu deixo voçê ganhar</h1><br><br>
         <input id="botao" type="button" value="Reiniciar" onclick="reiniciar()">
         <audio id="music" autoplay>
         <source src="audio/vaia.wav" type = "audio/mpeg">
@@ -172,43 +171,34 @@ if(pontosJog == limite || pontosOpon == limite){
 function reiniciar(){
 var principal = window.document.getElementById('main')
 var principal2 = window.document.getElementById('respostaDireita')
-
-
-principal2.innerHTML = 
-`
-    <div id="apjog"> </div>
-    
-    <br>
-    <div id="msg">Quem marcar ${limite} pontos primeiro vence <br>Vamos ver... Eu ou você... hahaha!</div>
-    <br>
-    <div id="res">
-        Escolha pedra, papel ou tesoura
-    </div>
-`
-
+    principal2.innerHTML = 
+    `
+        <div id="apjog"> </div>        
+        <br>
+        <div id="msg">Quem marcar ${limite} pontos primeiro vence <br>Vamos ver... Eu ou você... hahaha!</div>
+        <br>
+        <div id="res">
+            Escolha pedra, papel ou tesoura
+        </div>
+    `
     principal.innerHTML = 
     `
-    
-
-<center>
-<section>
-
-<div id="jogador">
-    <img id="ddd1" src="imagens/jkp.png" alt="imgs">
-</div>        
-<p>Pedra <input type="radio" name="jok" id="pedra">
-Papel <input type="radio" name="jok" id="papel">
-Tesoura <input type="radio" name="jok" id="tesoura">
-</p>
-<p>
-    <input id="botao" type="button" value="Jogar" onclick="jogar()">
-</p>
-
-<div id="imagem">
-    <img id="ddd" src="imagens/jkp.png" alt="imgs">
-</div>
-   
-</section>
-</center>
+        <center>
+        <section>
+        <div id="jogador">
+            <img id="ddd1" src="imagens/jkp.png" alt="imgs">
+        </div>        
+        <p>Pedra <input type="radio" name="jok" id="pedra">
+        Papel <input type="radio" name="jok" id="papel">
+        Tesoura <input type="radio" name="jok" id="tesoura">
+        </p>
+        <p>
+            <input id="botao" type="button" value="Jogar" onclick="jogar()">
+        </p>
+        <div id="imagem">
+            <img id="ddd" src="imagens/jkp.png" alt="imgs">
+        </div>        
+        </section>
+        </center>
     `
 }    

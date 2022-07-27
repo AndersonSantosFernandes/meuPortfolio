@@ -1,0 +1,13 @@
+div#textoCurriculo{
+    width: 90%;
+    height: 80%;
+    padding: 20px;
+    margin: auto;
+    border: 1px solid purple;
+}
+p{
+    text-indent: 20px;
+}
+h2{
+    text-shadow: 1px 1px 5px purple;
+}

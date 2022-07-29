@@ -15,7 +15,7 @@ div.fotos_in{
 div#mainFotos{
     width: 800px;
     margin: 50px auto;
-    box-shadow: 5px 5px 5px purple;
+    box-shadow: var(--shadow);
     display: block;
     
     background-color: rgba(240, 248, 255, 0.7);
@@ -58,7 +58,7 @@ ul.foto{
 ul.foto li{
     width: 200px;
     height: 200px;
-   box-shadow: 5px 5px 5px purple;
+    box-shadow: var(--shadow);
     float: left;
     margin: 10px;
     transition:  all 0.5s ease-in;

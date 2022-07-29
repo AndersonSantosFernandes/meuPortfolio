@@ -2,7 +2,7 @@ div#mainCertificados{
     width: 800px;
     height: 550px;
     margin: auto;
-    box-shadow: 5px 5px 5px purple;
+    box-shadow: var(--shadow);
     display: block;
     margin-top: 50px;
     background-color: rgba(240, 248, 255, 0.7);
@@ -18,7 +18,7 @@ div#certificadoInterno{
 li.certificadosImg{
     width: 200px;
     height: 170px;
-    box-shadow: 5px 5px 5px purple;
+    box-shadow: var(--shadow);
     list-style: none;
     float: left;
     margin: 17px;

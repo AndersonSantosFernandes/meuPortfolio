@@ -7,7 +7,7 @@ div#formacaoMain{
     display: flex;
 }
 article#direito , article#esquerdo{
-    box-shadow: 5px 5px 5px purple;
+    box-shadow: var(--shadow);
     width: 45%;
     height: 90%;
     padding: 10px;
@@ -17,7 +17,7 @@ img{
     width: 150px;
     height: 150px;
     margin: 10px 50%;
-    box-shadow: 5px 5px 15px purple;
+    box-shadow: var(--shadow);
 }
 p{
     text-indent: 20px;

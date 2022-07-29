@@ -6,7 +6,7 @@ div#interessesMain{
     display: flex;
 }
 article#direito , article#esquerdo{
-    box-shadow: 2px 2px 5px purple;
+    box-shadow: var(--shadow);
     width: 45%;
     height: 90%;
     padding: 8px;
@@ -18,7 +18,7 @@ div.interesses{
     margin: 3px auto;
     display: flex;
     overflow: hidden;
-    box-shadow: 2px 2px 5px purple;
+    box-shadow: var(--shadow);
     transition: all 1.5s;
 }
 div.interesses:hover{

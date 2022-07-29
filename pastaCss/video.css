@@ -2,7 +2,7 @@ div#video{
     width: 560px;
     height: 310px;
     /* border: 1px solid black; */
-    box-shadow: -5px 5px 5px purple;
+    box-shadow: var(--shadow);
     margin: auto;
     padding: 15px;
     background-color: rgb(250, 250, 187);
@@ -11,7 +11,7 @@ div#videoIn{
     width: 90%;
     padding: 10px;
     text-align: center;
-    box-shadow: 5px 5px 5px purple;
+    box-shadow: var(--shadow);
     margin:10px auto;
 }
 div#select{

@@ -17,7 +17,7 @@ div.calculosMain{
 
 }
 article#direito , article#esquerdo{
-    box-shadow: 5px 5px 5px purple;
+    box-shadow: var(--shadow);
     width: 45%;
     height: 90%;
     padding: 10px;

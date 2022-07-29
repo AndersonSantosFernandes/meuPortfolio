@@ -4,7 +4,7 @@ div#main{
 li.liRedes{
     width: 200px;
     height: 200px;
-    box-shadow: 5px 5px 5px purple;
+    box-shadow: var(--shadow);
     float: left;
     margin: 20px 33px;
     transition: all 1s;
@@ -25,7 +25,7 @@ div#mail{
     width: 75%;
     height: 200px;
     padding: 20px;
-    box-shadow: 5px 5px 5px purple;
+    box-shadow: var(--shadow);
     position: absolute;
     bottom: 10px;
     left: 10%;
@@ -44,5 +44,27 @@ input{
     width: 150px;
     padding: 10px 0px;
     text-align: center;
-    background-image: linear-gradient(purple, white, purple);
+    background-image: var(--gradiente);
+}
+img#eu{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    animation: updown 3s ease-in-out infinite;
+}
+
+@keyframes updown{
+
+    0%{
+        transform: translateY(30px);
+    }
+    50%{
+        transform: translateY(60px);
+    }
+    100%{
+        transform: translateY(30px);
+    }
+
 }

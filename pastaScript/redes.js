@@ -5,6 +5,7 @@ function exibeEmail(){
     <h1>andersantfer@gmail.com</h1>
     <br>
     <input type="button" value="Voltar" onclick="ocultarEmail()" >
+    <img id="eu"  src="imagens/eu sem fundo.png" alt="">
     `
     
 

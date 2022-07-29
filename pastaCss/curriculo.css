@@ -3,7 +3,7 @@ div#textoCurriculo{
     height: 80%;
     padding: 20px;
     margin: auto;
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
 }
 p{
     text-indent: 20px;

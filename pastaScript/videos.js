@@ -4,14 +4,10 @@ function mudarVideos(){
     var select = Number.parseInt(selecao.value)
 
     switch(select)
-    {
+    { 
         case 0:
-            videoDiv.innerHTML=`
-            <br><br>
-            <h2 id="h2cor">
-                Selecione um video na lista... 
-            </h2>
-            
+            videoDiv.innerHTML=`         
+            <img id="ilusao" src="imagens/gifexagono.gif" alt="">        
             `
         break    
         case 1:
@@ -41,6 +37,7 @@ function mudarVideos(){
             videoDiv.innerHTML = 
             `
             <h1>Opção 5 vazia</h1>
+            <img id="ilusao" src="imagens/gifexagono.gif" alt=""> 
             `
         break
         default:

@@ -10,9 +10,7 @@ function mostraMenu(){
     
     <nav id="navegar"> 
     <ul id="ul01">
-        <li><a href="index.html">Home</a>  
-        
-       
+        <li><a href="index.html">Home</a>         
         </li>
         <li><p class="menu">Assuntos<p> 
             <ul>
@@ -35,9 +33,8 @@ function mostraMenu(){
         </li>
         <li><p class="menu">Sobre<p> 
             <ul>
-            <li><a href="paginaCurriculo.html">Página currículo</a>
-            <li><a href="certificados.html">Certificados</a>
-            <li><a href="tabela.html">Tabela</a>
+                <li><a href="paginaCurriculo.html">Página currículo</a></li>
+                <li><a href="certificados.html">Certificados</a></li>            
             </ul>
         </li>
     </ul>

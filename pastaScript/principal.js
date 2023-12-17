@@ -1,4 +1,4 @@
-function mostraMenu(){
+// function mostraMenu(){
 
 //Função referente ao menú  e o input de cor e rádios de todas as páginas
     var logotipo = window.document.getElementById('logo')
@@ -51,4 +51,4 @@ function mostraMenu(){
         </div>
         </a>
     `
-}   
+// }   
